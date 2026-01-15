@@ -19,7 +19,7 @@ def export_to_csv():
         collect(target.id) AS interaction_network
     """
     
-    print("⏳ Exporting data from Neo4j...")
+    print("Exporting data from Neo4j...")
     with driver.session() as session:
         result = session.run(query)
         data = [record.data() for record in result]
@@ -29,7 +29,7 @@ def export_to_csv():
     
     # Save to CSV
     df.to_csv("data/user_features.csv", index=False)
-    print(f"✅ Exported {len(df)} users to 'data/user_features.csv'")
+    print(f"Exported {len(df)} users to 'data/user_features.csv'")
     driver.close()
 
 if __name__ == "__main__":

@@ -4,9 +4,8 @@ from faker import Faker
 from neo4j import GraphDatabase
 
 # CONFIGURATION
-# Connect to localhost because we are running outside Docker for now
 URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "12345678") # Match the password you set in Neo4j Desktop
+AUTH = ("neo4j", "12345678") 
 
 fake = Faker()
 
@@ -16,9 +15,9 @@ class BankDataGenerator:
         try:
             self.driver = GraphDatabase.driver(URI, auth=AUTH)
             self.driver.verify_connectivity()
-            print("Connected to Neo4j!")
+            print(" Connected to Neo4j!")
         except Exception as e:
-            print(f"Connection Failed: {e}")
+            print(f" Connection Failed: {e}")
 
     def close(self):
         self.driver.close()
@@ -39,7 +38,31 @@ class BankDataGenerator:
         props = [{'id': f"U{i}", 'name': fake.name()} for i in range(num_users)]
         self.run_query(query, {'props': props})
 
-    # 3. INJECT MONEY LAUNDERING RING (The "Feature")
+    # 3. INJECT RANDOM NOISE (The "Messy" Part)
+    def inject_random_noise(self, num_transactions=500):
+        print(f" Injecting {num_transactions} random transactions (Noise)...")
+        # Get all user IDs
+        with self.driver.session() as session:
+            result = session.run("MATCH (u:User) RETURN u.id AS id")
+            all_users = [record["id"] for record in result]
+        
+        if len(all_users) < 2:
+            print(" Not enough users to create noise.")
+            return
+
+        for _ in range(num_transactions):
+            sender = random.choice(all_users)
+            receiver = random.choice(all_users)
+            if sender != receiver:
+                # Random small amounts looking like normal coffee/rent
+                amount = random.randint(10, 500) 
+                query = """
+                MATCH (s:User {id: $s_id}), (r:User {id: $r_id})
+                MERGE (s)-[:TRANSACTION {amount: $amt, type: 'Normal', timestamp: $time}]->(r)
+                """
+                self.run_query(query, {'s_id': sender, 'r_id': receiver, 'amt': amount, 'time': time.time()})
+
+    # 4. INJECT MONEY LAUNDERING RING (The "Feature")
     def inject_money_laundering(self, ring_id):
         print(f"Injecting Money Laundering Ring #{ring_id}...")
         
@@ -69,9 +92,18 @@ class BankDataGenerator:
 if __name__ == "__main__":
     gen = BankDataGenerator()
     
-    # Run the simulation
-    gen.create_users(100)           # Legit noise
-    gen.inject_money_laundering(1)  # The hidden crime
+    # 1. Clear database first (Optional, but good for clean testing)
+    # gen.run_query("MATCH (n) DETACH DELETE n")
+
+    # 2. Create a larger population
+    gen.create_users(1000) 
+    
+    # 3. Inject Random Noise
+    gen.inject_random_noise(2000) 
+    
+    # 4. Inject multiple Fraud Rings
+    for i in range(10):
+        gen.inject_money_laundering(i)
     
     gen.close()
-    print("Data Injection Complete.")
+    print("Data Injection Complete (Hard Mode).")

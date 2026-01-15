@@ -1,108 +1,1071 @@
 userId,name,degree,total_sent,interaction_network
-U0,Stephanie Hardy,0,0,[]
-U1,Hannah Rodriguez,0,0,[]
-U2,Timothy Tyler,0,0,[]
-U3,Susan Kim,0,0,[]
-U4,Mariah Sloan,0,0,[]
-U5,Sarah Ferguson,0,0,[]
-U6,Travis Cherry,0,0,[]
-U7,Bonnie Brown,0,0,[]
-U8,Melissa Taylor,0,0,[]
-U9,Kathy Gonzales,0,0,[]
-U10,Jodi Schneider,0,0,[]
-U11,Walter Cruz,0,0,[]
-U12,Austin Bullock,0,0,[]
-U13,Leah Rose,0,0,[]
-U14,Robert Adams,0,0,[]
-U15,Deborah Weiss,0,0,[]
-U16,Jordan Gaines,0,0,[]
-U17,Sarah Jennings,0,0,[]
-U18,Dawn Thomas,0,0,[]
-U19,David Good,0,0,[]
-U20,Amber Wright,0,0,[]
-U21,Dawn Richardson,0,0,[]
-U22,Patricia Thomas,0,0,[]
-U23,Michael Hess,0,0,[]
-U24,Robin Mcdonald,0,0,[]
-U25,Carl Morrow,0,0,[]
-U26,Alexis Sanchez,0,0,[]
-U27,Stephanie Wood,0,0,[]
-U28,Robin Smith,0,0,[]
-U29,Jenna Ryan,0,0,[]
-U30,Anthony Morton,0,0,[]
-U31,Laura Collins,0,0,[]
-U32,Theresa Brooks,0,0,[]
-U33,John Park,0,0,[]
-U34,Chloe Guerra,0,0,[]
-U35,Pamela Petersen,0,0,[]
-U36,Danielle Gutierrez,0,0,[]
-U37,Benjamin Gutierrez,0,0,[]
-U38,Sarah Burke,0,0,[]
-U39,Cody White,0,0,[]
-U40,Kimberly Smith,0,0,[]
-U41,Donna Thornton,0,0,[]
-U42,Justin Davis,0,0,[]
-U43,Tammie Carr,0,0,[]
-U44,Kathryn Barnes,0,0,[]
-U45,Laura Murphy,0,0,[]
-U46,Alexander Brown,0,0,[]
-U47,Chad Sanders,0,0,[]
-U48,Jacob Lara,0,0,[]
-U49,Kevin Hill,0,0,[]
-U50,Lisa Porter,0,0,[]
-U51,Justin Kelly,0,0,[]
-U52,Sarah Ballard,0,0,[]
-U53,Glen Harrison,0,0,[]
-U54,Nicholas Nicholson,0,0,[]
-U55,Richard Gross,0,0,[]
-U56,Henry Shaw,0,0,[]
-U57,Carol Hughes,0,0,[]
-U58,Alex Smith,0,0,[]
-U59,Jenny Moore,0,0,[]
-U60,Sarah Evans,0,0,[]
-U61,Larry Fields,0,0,[]
-U62,Makayla Evans,0,0,[]
-U63,Patrick Williams,0,0,[]
-U64,Ryan Pittman,0,0,[]
-U65,Catherine Garcia,0,0,[]
-U66,Jessica Keller,0,0,[]
-U67,Jeff Park,0,0,[]
-U68,Samantha Gonzales,0,0,[]
-U69,Joseph Dean,0,0,[]
-U70,Kenneth Watkins,0,0,[]
-U71,Sandra Gutierrez,0,0,[]
-U72,Christine Peterson,0,0,[]
-U73,Maria Hurst,0,0,[]
-U74,Jacqueline Armstrong,0,0,[]
-U75,Kayla Moreno,0,0,[]
-U76,Teresa Nguyen,0,0,[]
-U77,Carolyn Davis,0,0,[]
-U78,Kevin Avila,0,0,[]
-U79,Ashley Miller,0,0,[]
-U80,Ronald Garrison,0,0,[]
-U81,James Martin,0,0,[]
-U82,Gloria Miller,0,0,[]
-U83,Audrey Anderson,0,0,[]
-U84,Joshua Baker,0,0,[]
-U85,Matthew Benton,0,0,[]
-U86,Trevor Larson,0,0,[]
-U87,Dr. Paula Cummings,0,0,[]
-U88,Heather Conley,0,0,[]
-U89,Ronald Patrick,0,0,[]
-U90,Timothy Gomez,0,0,[]
-U91,Ricardo Buck,0,0,[]
-U92,James Mcpherson,0,0,[]
-U93,Hunter Russell,0,0,[]
-U94,Zachary Leonard,0,0,[]
-U95,Stacy Benson,0,0,[]
-U96,Mark Watkins,0,0,[]
-U97,Mr. Jason Conrad Jr.,0,0,[]
-U98,Kimberly Salazar,0,0,[]
-U99,Kathryn Murray,0,0,[]
-BOSS_1,,5,45000,"['MULE_1_0', 'MULE_1_1', 'MULE_1_2', 'MULE_1_3', 'MULE_1_4']"
-MULE_1_0,,1,8500,['SHELL_1']
-MULE_1_1,,1,8500,['SHELL_1']
-MULE_1_2,,1,8500,['SHELL_1']
-MULE_1_3,,1,8500,['SHELL_1']
-MULE_1_4,,1,8500,['SHELL_1']
-SHELL_1,,0,0,[]
+U0,Valerie Morris,3,319,"['U84', 'U553', 'U806']"
+U1,Janice Bell,2,241,"['U639', 'U702']"
+U2,Meagan Mccormick,3,500,"['U40', 'U70', 'U784']"
+U3,Amanda Parker,0,0,[]
+U4,Lawrence Burns,2,604,"['U392', 'U932']"
+U5,Mariah Taylor,1,416,['U419']
+U6,Jessica Erickson,1,300,['U816']
+U7,Erica Craig,1,156,['U95']
+U8,Ashley Jones,0,0,[]
+U9,Amanda Reeves,3,825,"['U216', 'U826', 'U912']"
+U10,Shannon Gutierrez,2,470,"['U184', 'U843']"
+U11,Wesley Warren,0,0,[]
+U12,Jamie Tanner,2,560,"['U843', 'U844']"
+U13,Brooke Perez,1,250,['U92']
+U14,Mark Morse,2,87,"['U283', 'U512']"
+U15,Melinda Smith,0,0,[]
+U16,Janet Bell,2,673,"['U15', 'U39']"
+U17,Brandon West,3,955,"['U257', 'U458', 'U802']"
+U18,Danielle Guerrero,1,139,['U374']
+U19,Matthew Bush,1,51,['U279']
+U20,Sherry Hale,1,454,['U440']
+U21,Garrett Stone,0,0,[]
+U22,Anne Taylor,2,598,"['U67', 'U203']"
+U23,Mrs. Alyssa Lin,3,260,"['U203', 'U377', 'U400']"
+U24,Drew Jenkins,4,865,"['U113', 'U125', 'U206', 'U646']"
+U25,Timothy Vega,1,78,['U56']
+U26,Elizabeth Cannon,2,470,"['U481', 'U878']"
+U27,David Morgan,3,752,"['U200', 'U318', 'U659']"
+U28,Stephanie Salinas,2,174,"['U54', 'U135']"
+U29,Sara Flores,1,173,['U871']
+U30,David Maldonado,6,942,"['U15', 'U318', 'U805', 'U915', 'U938', 'U987']"
+U31,Mary Wells,1,176,['U442']
+U32,Sherri Jackson,3,998,"['U14', 'U273', 'U312']"
+U33,Deborah Zimmerman,1,90,['U993']
+U34,Michael Hart,1,235,['U469']
+U35,Andrew Johnson,2,343,"['U597', 'U915']"
+U36,Michelle Vargas,3,654,"['U321', 'U536', 'U939']"
+U37,Susan Thomas,6,2071,"['U105', 'U105', 'U206', 'U631', 'U662', 'U727']"
+U38,Brent Harper,2,560,"['U957', 'U974']"
+U39,Michelle Lin,1,199,['U567']
+U40,Ashley Shaffer MD,1,102,['U85']
+U41,Jerome Gilbert,3,963,"['U27', 'U872', 'U922']"
+U42,Janet Hebert,3,230,"['U21', 'U626', 'U830']"
+U43,Ernest Barrett,3,345,"['U314', 'U574', 'U996']"
+U44,Fred Morris,2,701,"['U103', 'U377']"
+U45,Holly Chandler,0,0,[]
+U46,Jamie Adams,4,1395,"['U762', 'U771', 'U986', 'U997']"
+U47,Misty Brown,2,174,"['U174', 'U888']"
+U48,Anna Bates,1,188,['U945']
+U49,Shannon Bass,2,444,"['U98', 'U807']"
+U50,Shelly Foster,2,482,"['U579', 'U862']"
+U51,Robin Foster,2,755,"['U249', 'U811']"
+U52,Vincent Lewis,1,69,['U312']
+U53,Jennifer Peck,2,393,"['U169', 'U546']"
+U54,Alisha Delacruz,6,1559,"['U107', 'U146', 'U251', 'U407', 'U725', 'U748']"
+U55,Ronald Faulkner,2,706,"['U628', 'U631']"
+U56,Elizabeth Collier,1,404,['U52']
+U57,Pamela Pierce,2,585,"['U178', 'U502']"
+U58,David Johnson,4,1021,"['U65', 'U669', 'U786', 'U914']"
+U59,Mario Zimmerman,2,798,"['U137', 'U589']"
+U60,Sandra Coleman,0,0,[]
+U61,Kevin Medina,1,68,['U556']
+U62,Julie Jones,4,1018,"['U162', 'U316', 'U592', 'U638']"
+U63,Jill Phelps,2,278,"['U130', 'U617']"
+U64,Lauren Smith,1,357,['U87']
+U65,David Wells,5,1073,"['U247', 'U600', 'U797', 'U890', 'U980']"
+U66,Tracy Ortiz,5,914,"['U95', 'U309', 'U327', 'U542', 'U979']"
+U67,Karen Saunders,2,290,"['U371', 'U441']"
+U68,Douglas Ward,0,0,[]
+U69,Dylan Mitchell MD,3,588,"['U438', 'U734', 'U743']"
+U70,Sabrina Levy,3,335,"['U267', 'U520', 'U916']"
+U71,Leslie Howard,2,579,"['U142', 'U443']"
+U72,Andrew Melendez,1,97,['U14']
+U73,Stacey Lopez,2,367,"['U436', 'U842']"
+U74,Scott Mitchell,0,0,[]
+U75,Jacob French,2,659,"['U713', 'U977']"
+U76,Phyllis Smith,1,388,['U281']
+U77,Kevin Mcfarland,3,683,"['U122', 'U507', 'U746']"
+U78,Gregory Stafford,3,1137,"['U674', 'U727', 'U999']"
+U79,Holly Peck,2,668,"['U543', 'U942']"
+U80,Stephen Carson,1,94,['U773']
+U81,Laura Hickman,1,481,['U713']
+U82,Lisa Evans,4,1148,"['U42', 'U269', 'U390', 'U921']"
+U83,Omar Pham,1,186,['U523']
+U84,Logan Schaefer,2,339,"['U580', 'U746']"
+U85,Gabrielle Herrera,3,764,"['U659', 'U723', 'U723']"
+U86,Dr. Jessica Mathews,1,244,['U907']
+U87,Joseph Hunter,2,670,"['U302', 'U474']"
+U88,John Santana,3,404,"['U785', 'U882', 'U945']"
+U89,Katherine Williams,0,0,[]
+U90,James Campbell,1,495,['U245']
+U91,Kimberly Barnes,3,640,"['U362', 'U561', 'U707']"
+U92,Sylvia Mckay,4,791,"['U216', 'U411', 'U437', 'U565']"
+U93,Yolanda Watkins,0,0,[]
+U94,Heather Jones,1,415,['U200']
+U95,Thomas Werner,3,1042,"['U194', 'U896', 'U946']"
+U96,Michael Dunn,1,97,['U173']
+U97,Robert Dominguez,2,536,"['U291', 'U805']"
+U98,Mr. Bryan Barnes,0,0,[]
+U99,Kevin Cunningham,1,154,['U376']
+BOSS_1,,19,135910,"['U5', 'MULE_1_0', 'MULE_1_0', 'MULE_1_0', 'MULE_1_1', 'MULE_1_1', 'MULE_1_1', 'MULE_1_2', 'MULE_1_2', 'MULE_1_2', 'MULE_1_3', 'MULE_1_3', 'MULE_1_3', 'MULE_1_4', 'MULE_1_4', 'MULE_1_4', 'U795', 'U852', 'U863']"
+MULE_1_0,,7,26626,"['SHELL_1', 'SHELL_1', 'SHELL_1', 'U749', 'U755', 'U755', 'U785']"
+MULE_1_1,,4,25724,"['SHELL_1', 'SHELL_1', 'SHELL_1', 'U966']"
+MULE_1_2,,5,26015,"['SHELL_1', 'SHELL_1', 'SHELL_1', 'U660', 'U715']"
+MULE_1_3,,4,25557,"['SHELL_1', 'SHELL_1', 'SHELL_1', 'U155']"
+MULE_1_4,,6,25788,"['SHELL_1', 'SHELL_1', 'SHELL_1', 'U626', 'U687', 'U808']"
+SHELL_1,,1,136,['U157']
+U100,Ashley Roy,2,664,"['U610', 'U853']"
+U101,Sherry Hicks,0,0,[]
+U102,Richard Baker,4,907,"['U112', 'U413', 'U416', 'U702']"
+U103,Kyle Harris,2,408,"['U721', 'U971']"
+U104,Kenneth Young,2,530,"['U290', 'U751']"
+U105,Edward Watson,1,66,['U643']
+U106,Melissa Andrews,3,575,"['U86', 'MULE_1_0', 'U357']"
+U107,Susan Adkins,1,34,['U751']
+U108,Julia Graves,1,351,['U199']
+U109,Daniel Jones,3,753,"['U407', 'U786', 'U945']"
+U110,Charles Mitchell,4,991,"['U236', 'U275', 'U514', 'U822']"
+U111,Shane Smith,0,0,[]
+U112,Amber Johnson,6,976,"['U118', 'U314', 'U351', 'U528', 'U581', 'U841']"
+U113,Joseph Buck,5,1638,"['U5', 'U83', 'U475', 'U781', 'U968']"
+U114,Jessica Cole,2,430,"['U197', 'U893']"
+U115,Jill Brown,1,405,['U941']
+U116,Tiffany Riley,4,976,"['U141', 'U154', 'U226', 'U560']"
+U117,Jamie Hernandez,2,543,"['U465', 'U472']"
+U118,Michael Aguilar,3,554,"['U336', 'U342', 'U654']"
+U119,Bradley Rojas,3,397,"['U543', 'U620', 'U792']"
+U120,Kayla Lawrence,1,279,['U511']
+U121,Tina Fitzpatrick,3,1263,"['U296', 'U492', 'U823']"
+U122,Matthew Payne,5,1001,"['U59', 'U208', 'U361', 'U708', 'U809']"
+U123,Stephen Cole,2,298,"['U1', 'U313']"
+U124,Jennifer Ortega,2,616,"['U42', 'U180']"
+U125,Amanda Jackson,1,196,['U739']
+U126,Jason Navarro,0,0,[]
+U127,Mark Luna,3,1309,"['U3', 'U430', 'U824']"
+U128,Jeffrey Hanson,1,38,['U163']
+U129,Curtis Moore,3,411,"['U245', 'U789', 'U920']"
+U130,Patricia Martin,5,1772,"['U180', 'U192', 'U594', 'U608', 'U658']"
+U131,Cristian Davis,2,673,"['U607', 'U778']"
+U132,Yvonne Martin,3,835,"['U462', 'U942', 'U981']"
+U133,Lisa Green,2,935,"['U482', 'U856']"
+U134,Sarah Munoz,3,444,"['U585', 'U761', 'U846']"
+U135,Philip Cox,0,0,[]
+U136,Mckenzie Farrell,2,777,"['U548', 'U763']"
+U137,Joshua Sellers,2,678,"['U181', 'U443']"
+U138,Ethan Love,2,688,"['U116', 'U943']"
+U139,Eddie Moreno,3,713,"['U7', 'U276', 'U664']"
+U140,Laura Reyes,1,375,['U112']
+U141,Robert Jones,2,445,"['U265', 'U305']"
+U142,Helen Raymond,3,1054,"['U39', 'U695', 'U876']"
+U143,Michael Mason,4,906,"['U28', 'U584', 'U826', 'U939']"
+U144,Zachary Scott,0,0,[]
+U145,Monica Davis,2,741,"['U707', 'U865']"
+U146,Timothy Spence,3,694,"['U341', 'U751', 'U855']"
+U147,Thomas Meyers DDS,4,649,"['U47', 'MULE_1_2', 'U379', 'U456']"
+U148,Rachel Olsen,3,754,"['U115', 'U170', 'U206']"
+U149,Amanda Barrett,1,427,['U89']
+U150,Elizabeth Solomon,3,455,"['U34', 'U316', 'U589']"
+U151,Victoria Garcia,1,135,['U140']
+U152,Brian Forbes,0,0,[]
+U153,Meghan Gilbert,4,690,"['U528', 'U662', 'U749', 'U771']"
+U154,Jeanne Everett,0,0,[]
+U155,Jeffrey Hicks,0,0,[]
+U156,Rebecca Smith,4,1237,"['U60', 'U79', 'U300', 'U715']"
+U157,John Jones,1,115,['U805']
+U158,Louis Logan,1,127,['U371']
+U159,Angela Webster,3,164,"['U593', 'U737', 'U908']"
+U160,Lauren Lopez,1,147,['U432']
+U161,William Hughes,4,998,"['U22', 'U421', 'U456', 'U557']"
+U162,Henry Hancock,1,68,['U774']
+U163,Richard Cooper,1,267,['U268']
+U164,Michael Ruiz,3,800,"['U74', 'U879', 'U927']"
+U165,Laura Camacho,0,0,[]
+U166,Kathleen Castro MD,3,602,"['U277', 'U600', 'U891']"
+U167,Kathryn Jordan,0,0,[]
+U168,Jennifer Thompson,1,382,['U960']
+U169,Erica Thompson,0,0,[]
+U170,Gary Ross,5,1272,"['U128', 'U420', 'U767', 'U882', 'U941']"
+U171,Daniel Miller,2,533,"['MULE_1_0', 'U258']"
+U172,Gary Mccoy,2,649,"['U460', 'U819']"
+U173,Tracy Brooks,1,215,['U602']
+U174,Elizabeth Moore,3,946,"['U142', 'U244', 'U419']"
+U175,James Smith,2,366,"['U585', 'U596']"
+U176,Carla Guzman,3,722,"['U142', 'U591', 'U719']"
+U177,Jared Wood,0,0,[]
+U178,Corey Miller,4,1163,"['U253', 'U461', 'U701', 'U722']"
+U179,Steve Rodriguez,2,48,"['U751', 'U886']"
+U180,Roger Davis,2,417,"['U210', 'U509']"
+U181,Theresa Rose,1,391,['U535']
+U182,Monica Bennett,3,1281,"['U49', 'U594', 'U938']"
+U183,Jeremiah Moore,0,0,[]
+U184,Marissa Atkins,1,127,['U165']
+U185,Angel Benitez,2,752,"['U144', 'U505']"
+U186,Mr. Gary Mitchell,4,836,"['U155', 'U378', 'U759', 'U857']"
+U187,Todd Drake,4,1334,"['U115', 'U149', 'U282', 'U881']"
+U188,Tracy Townsend,0,0,[]
+U189,Christopher Greene,0,0,[]
+U190,Michael Davis,4,1227,"['U57', 'SHELL_1', 'U678', 'U937']"
+U191,Colton Fox,1,271,['U167']
+U192,Jeffrey Aguilar,6,1404,"['U212', 'U315', 'U606', 'U864', 'U885', 'U990']"
+U193,Lori Whitaker,1,349,['U657']
+U194,Phillip Clark,3,219,"['U614', 'U622', 'U973']"
+U195,Hannah Torres,1,462,['U287']
+U196,Jennifer Schmidt,5,1224,"['U3', 'MULE_1_2', 'U296', 'U657', 'U858']"
+U197,Darlene Marshall,0,0,[]
+U198,Patricia Patel,0,0,[]
+U199,Troy Riley,1,208,['U280']
+U200,Stephanie Whitaker,4,1258,"['U6', 'U232', 'U268', 'U621']"
+U201,Zachary Sandoval,4,1011,"['SHELL_1', 'U238', 'U415', 'U939']"
+U202,Sean Hudson,1,359,['U212']
+U203,Brittany Kim,1,75,['U433']
+U204,Cindy Smith,2,515,"['U49', 'U517']"
+U205,Jennifer Parker,2,496,"['U298', 'U399']"
+U206,Jon Frost,0,0,[]
+U207,Jorge Kline,1,461,['U81']
+U208,Cynthia Walker,0,0,[]
+U209,Jessica Hartman,0,0,[]
+U210,Daniel Baxter,2,768,"['U14', 'U404']"
+U211,Joshua Clark,4,1032,"['U36', 'U46', 'U335', 'U421']"
+U212,Claire Nguyen,4,675,"['U350', 'U442', 'U592', 'U766']"
+U213,Brian Kane,3,619,"['U343', 'U418', 'U815']"
+U214,Deborah Mcgrath,2,460,"['U154', 'U217']"
+U215,Taylor Glass,1,431,['U193']
+U216,Diane Ellison,3,1236,"['U317', 'U596', 'U635']"
+U217,Amber Larson,2,568,"['U628', 'U711']"
+U218,Julie White,0,0,[]
+U219,Kyle Oneal,3,241,"['U568', 'U589', 'U624']"
+U220,Christopher White,2,690,"['U186', 'U566']"
+U221,Anthony Byrd,0,0,[]
+U222,Melissa Miller,4,1728,"['U181', 'U724', 'U868', 'U926']"
+U223,Caleb Cook,3,782,"['U286', 'U552', 'U815']"
+U224,Brandon Weiss,3,700,"['U589', 'U771', 'U929']"
+U225,Amber Salazar,1,233,['U239']
+U226,Mary Manning,0,0,[]
+U227,Christopher Garrett,0,0,[]
+U228,Mrs. Lisa Thompson MD,1,214,['U437']
+U229,Michael Vargas,2,499,"['U253', 'U734']"
+U230,Austin Mack,4,754,"['U90', 'U436', 'U471', 'U647']"
+U231,Joseph Washington,2,979,"['U283', 'U421']"
+U232,Shelby Daniels,2,410,"['U174', 'U246']"
+U233,Linda Pineda,3,787,"['U479', 'U480', 'U621']"
+U234,Douglas Porter,1,235,['U725']
+U235,Michael Harris,2,426,"['U70', 'U615']"
+U236,Emma Jones,1,365,['MULE_1_4']
+U237,Adam Morales,1,437,['U792']
+U238,Debra Williams,2,644,"['U128', 'U305']"
+U239,David Brooks,1,124,['U410']
+U240,Amanda Odonnell DVM,1,438,['U540']
+U241,Greg Dodson,1,165,['U916']
+U242,Thomas Holloway,1,306,['U325']
+U243,Elizabeth Miller,0,0,[]
+U244,William Wilson,5,1359,"['U146', 'U317', 'U451', 'U473', 'U623']"
+U245,Becky Heath,1,259,['U57']
+U246,Nancy Garcia,1,425,['U854']
+U247,Steven Barron,2,455,"['U421', 'U997']"
+U248,Kristina Hester,1,439,['U844']
+U249,Brent Howard,3,1291,"['U19', 'U103', 'U789']"
+U250,Danielle Allison,1,409,['U406']
+U251,John Cohen,2,309,"['U350', 'U537']"
+U252,Mariah Lawson,4,467,"['U29', 'U144', 'U299', 'U564']"
+U253,Troy Hudson,2,651,"['U48', 'U545']"
+U254,Heather Bowman,5,1632,"['U32', 'U502', 'U652', 'U858', 'U910']"
+U255,Barbara Richards,2,385,"['U20', 'U398']"
+U256,Kevin Green,1,24,['U129']
+U257,Peter Wright,0,0,[]
+U258,Michael Cox,2,674,"['U736', 'U746']"
+U259,Heather Phillips,2,299,"['U888', 'U895']"
+U260,Chase Johnson,2,570,"['U481', 'U866']"
+U261,Christina Ramos,3,620,"['U469', 'U479', 'U971']"
+U262,Angela Odom,1,242,['U588']
+U263,Wendy Perez,2,751,"['U333', 'U726']"
+U264,Tanner Foster,1,207,['U508']
+U265,Jeffery Diaz,4,934,"['U80', 'U453', 'U661', 'U877']"
+U266,Amy Evans,1,289,['U373']
+U267,Sarah Austin,2,396,"['U445', 'U554']"
+U268,Barbara Perez,3,1152,"['U594', 'U866', 'U985']"
+U269,Jeffrey Jordan,5,1777,"['U371', 'U415', 'U519', 'U598', 'U773']"
+U270,Leslie Daniels,0,0,[]
+U271,Dr. Paul Porter,0,0,[]
+U272,Brandon Brown,1,240,['U485']
+U273,Jessica Edwards,4,737,"['U93', 'U143', 'U691', 'U742']"
+U274,Nicole Young,3,920,"['MULE_1_0', 'U559', 'U654']"
+U275,Monique Santos,1,473,['U849']
+U276,Manuel Garrett,1,421,['U330']
+U277,Barry Hunt,3,378,"['U71', 'U637', 'U935']"
+U278,Regina Spears,0,0,[]
+U279,Katrina King,2,630,"['U666', 'U991']"
+U280,John Snyder,4,1165,"['U590', 'U656', 'U742', 'U824']"
+U281,Bryan Hernandez,1,221,['U691']
+U282,William Frazier DDS,1,81,['U863']
+U283,Kimberly Fletcher PhD,1,384,['U665']
+U284,Aaron Hunt,2,134,"['U278', 'U774']"
+U285,Meghan Cabrera,0,0,[]
+U286,Michael Jones,1,453,['U211']
+U287,Ashley Anderson,1,407,['U473']
+U288,Lindsay Graham,0,0,[]
+U289,Andrew Jones,2,486,"['U194', 'U801']"
+U290,Daniel Ferguson,4,836,"['U243', 'U317', 'U772', 'U827']"
+U291,Eric Moran,1,257,['U621']
+U292,Tyler Floyd,2,77,"['U73', 'U144']"
+U293,Kenneth Powers,2,621,"['U386', 'U614']"
+U294,Ms. Lisa Mckinney DDS,2,346,"['U382', 'U932']"
+U295,Michael Martin,3,510,"['U101', 'U139', 'U329']"
+U296,Andrea Taylor,2,434,"['U527', 'U543']"
+U297,Aaron Nelson,1,252,['U430']
+U298,Adam Chapman,2,618,"['U1', 'U661']"
+U299,Robert Casey,4,1052,"['U288', 'U590', 'U867', 'U910']"
+U300,Robert Andrews,1,34,['U366']
+U301,Scott Arnold,3,516,"['U171', 'U652', 'U702']"
+U302,Steven Cox,3,944,"['U433', 'U577', 'U589']"
+U303,Christopher Russell,1,331,['U765']
+U304,Crystal Valdez,4,1335,"['U158', 'U431', 'U834', 'U846']"
+U305,David Huber,5,1075,"['U41', 'U71', 'U126', 'U377', 'U988']"
+U306,Angel Elliott,0,0,[]
+U307,Nancy Arnold,3,465,"['U466', 'U475', 'U687']"
+U308,Steven Sampson,0,0,[]
+U309,Edward Jordan,0,0,[]
+U310,Kristopher Drake,3,630,"['U399', 'U407', 'U862']"
+U311,Todd Reyes,2,794,"['U57', 'U468']"
+U312,Thomas Hernandez,3,966,"['U237', 'U461', 'U586']"
+U313,Kelly Hawkins,0,0,[]
+U314,Teresa Garcia,0,0,[]
+U315,Seth Fernandez,2,826,"['U436', 'U944']"
+U316,Sharon Rogers,1,41,['U755']
+U317,Brian Alexander,8,1763,"['U37', 'U189', 'U400', 'U552', 'U557', 'U707', 'U952', 'U998']"
+U318,Thomas Ward,1,172,['U792']
+U319,Ronald Gross Jr.,1,64,['U262']
+U320,Karen Carrillo,4,1220,"['U288', 'U420', 'U671', 'U877']"
+U321,Andrea Fowler,3,987,"['U61', 'U808', 'U901']"
+U322,Leslie Mccarthy,2,602,"['U641', 'U869']"
+U323,Mary Sims,2,689,"['U311', 'U669']"
+U324,Ms. Brandi Rodriguez,2,724,"['U4', 'U697']"
+U325,Jerry Smith,1,226,['U700']
+U326,Jessica Rangel,0,0,[]
+U327,Teresa Bishop,2,648,"['U475', 'U681']"
+U328,Patricia Chapman,4,638,"['U151', 'U401', 'U460', 'U504']"
+U329,Joseph Ellis,1,348,['U124']
+U330,John Walters,1,416,['U348']
+U331,Christopher Daniels,2,962,"['U921', 'U941']"
+U332,Sarah Baker,1,98,['U583']
+U333,Rodney Jones,2,532,"['U488', 'U832']"
+U334,Sarah Johnson,3,636,"['U136', 'U354', 'U478']"
+U335,Leah Gibson,2,194,"['U469', 'U975']"
+U336,Ryan Bowman,2,490,"['U331', 'U725']"
+U337,Jay Bennett,3,942,"['U5', 'U106', 'U146']"
+U338,Susan Tucker,1,499,['U482']
+U339,Nathan Smith,1,290,['U625']
+U340,Samantha Floyd,4,1046,"['U121', 'U525', 'U537', 'U721']"
+U341,Brian Hunt,1,268,['U13']
+U342,Christina Wilson,3,462,"['U485', 'U610', 'U775']"
+U343,Samantha Thomas,1,71,['U194']
+U344,Jessica Hernandez,1,73,['U299']
+U345,Ronnie Thompson,3,478,"['U155', 'U207', 'U278']"
+U346,Nicholas Henson IV,5,1546,"['U69', 'U84', 'U106', 'U351', 'U490']"
+U347,Tiffany Smith,3,1103,"['U200', 'U386', 'U648']"
+U348,James Perry,3,642,"['U194', 'U835', 'U991']"
+U349,Denise Clark,2,500,"['U20', 'MULE_1_0']"
+U350,Ryan Dunn,0,0,[]
+U351,Sean Kirk,0,0,[]
+U352,Marissa Richardson,2,703,"['U762', 'U766']"
+U353,Gwendolyn Parker,1,394,['U958']
+U354,April Diaz,8,1904,"['U226', 'U273', 'U322', 'U335', 'U379', 'U677', 'U814', 'U933']"
+U355,Rebecca Rocha,0,0,[]
+U356,Eric Dunn Jr.,1,59,['U197']
+U357,Kristen Lucas,1,210,['U876']
+U358,Michael Harrington,2,517,"['U372', 'U890']"
+U359,Chelsea Fuller,2,372,"['U62', 'U742']"
+U360,Brandy Nelson,3,863,"['U312', 'U876', 'U936']"
+U361,Brenda Benson,2,768,"['U552', 'U912']"
+U362,Molly Tate,1,127,['U48']
+U363,Tracy Arnold,3,384,"['U421', 'U561', 'U671']"
+U364,Karen Bradshaw,3,464,"['U203', 'U592', 'U967']"
+U365,Matthew Johnson,0,0,[]
+U366,Brian Stewart,3,1102,"['U561', 'U826', 'U936']"
+U367,Crystal Garcia,0,0,[]
+U368,Jennifer Johnson,0,0,[]
+U369,Nancy Smith,1,85,['U548']
+U370,James Franco,1,10,['U342']
+U371,Jacqueline Pittman,2,735,"['U719', 'U887']"
+U372,Kimberly Bell,3,326,"['U260', 'U723', 'U921']"
+U373,Tammy Watkins,4,809,"['U83', 'U104', 'U672', 'U893']"
+U374,Joshua Griffith,1,447,['U835']
+U375,Christopher Vargas,3,973,"['U108', 'U387', 'U791']"
+U376,Emma Clark,0,0,[]
+U377,Autumn Fernandez,2,93,"['U719', 'U760']"
+U378,Teresa Perkins,3,1047,"['U293', 'U313', 'U685']"
+U379,Ray Rodgers,3,982,"['U287', 'U303', 'U771']"
+U380,Jonathan Hernandez,0,0,[]
+U381,Matthew Wilcox,3,526,"['U571', 'U592', 'U952']"
+U382,Rachel Perkins,2,613,"['U697', 'U834']"
+U383,Gloria Parker,3,798,"['U206', 'U240', 'U641']"
+U384,Andrew Brock,0,0,[]
+U385,Kelsey Landry,1,362,['U579']
+U386,Craig Kerr,3,939,"['U63', 'U151', 'U652']"
+U387,Kenneth Perez,3,461,"['U350', 'U573', 'U844']"
+U388,Michelle Johnson,4,1609,"['U566', 'U595', 'U597', 'U686']"
+U389,Jennifer Roberts,1,321,['U306']
+U390,Matthew Reyes,1,286,['U661']
+U391,Terry Schultz,2,262,"['U33', 'U297']"
+U392,Kristen Gomez,2,770,"['U576', 'U805']"
+U393,Anna Dunn,2,654,"['U354', 'U762']"
+U394,Tiffany Yang,1,178,['U804']
+U395,Anthony Flynn,1,355,['U66']
+U396,Monique Smith,2,570,"['U293', 'U495']"
+U397,Terrance Stevens,2,662,"['U101', 'U960']"
+U398,Christopher Hernandez,2,273,"['U79', 'U686']"
+U399,Duane Tran,2,874,"['U9', 'U977']"
+U400,Michael Clark,2,575,"['U127', 'U601']"
+U401,Jeffrey Hicks,1,315,['U498']
+U402,Jennifer Lane,1,108,['U120']
+U403,Elizabeth Wright,3,1158,"['U80', 'U217', 'U463']"
+U404,Lisa Becker,2,347,"['U514', 'U838']"
+U405,Mr. Brandon Dixon,2,633,"['U342', 'U438']"
+U406,Richard Davidson,2,556,"['U479', 'U910']"
+U407,Robin Lopez,1,271,['U233']
+U408,Thomas Daniels,6,1545,"['U41', 'U411', 'U499', 'U505', 'U566', 'U860']"
+U409,Haley Hensley,1,424,['U253']
+U410,Ryan Reynolds,2,699,"['U234', 'U402']"
+U411,Mrs. Laura Daniels,0,0,[]
+U412,Tamara Lewis,2,469,"['U255', 'U639']"
+U413,Brittany Williams,4,1184,"['U410', 'U438', 'U543', 'U567']"
+U414,Kenneth Lewis,1,216,['U963']
+U415,Charles Smith,2,233,"['U153', 'U154']"
+U416,Jordan Singleton,0,0,[]
+U417,Mitchell Booth,1,481,['U619']
+U418,Brenda Martinez,4,737,"['U60', 'U203', 'U656', 'U886']"
+U419,Ryan Harvey,0,0,[]
+U420,Jeffrey Harrison,0,0,[]
+U421,Jeffrey Kirk,2,458,"['U122', 'U837']"
+U422,Jamie Villegas,2,416,"['U518', 'U547']"
+U423,Brittney York,5,1240,"['U112', 'U488', 'U710', 'U837', 'U958']"
+U424,Patty Stevenson,2,655,"['U14', 'U922']"
+U425,John Warren,5,1476,"['U76', 'U521', 'U600', 'U654', 'U690']"
+U426,Jared Crawford,2,796,"['U378', 'U922']"
+U427,Brittney Reed,1,260,['U929']
+U428,Lance Pierce,1,206,['U495']
+U429,Suzanne Schultz,2,515,"['U304', 'U609']"
+U430,Erica Rojas,3,556,"['U64', 'U315', 'U785']"
+U431,Elizabeth Miller,1,336,['U128']
+U432,Mark Tucker,1,47,['U111']
+U433,Christopher Moore,2,541,"['U241', 'U488']"
+U434,Melissa Paul,2,561,"['U173', 'U280']"
+U435,Michael Davis,3,220,"['U10', 'U627', 'U998']"
+U436,Francis Gonzales,2,404,"['U314', 'U565']"
+U437,John Palmer,2,323,"['U23', 'U765']"
+U438,Richard Robinson,1,399,['U416']
+U439,Warren Walker,1,232,['U195']
+U440,Luke Patel,1,240,['U21']
+U441,Seth Blake,0,0,[]
+U442,Brandi Lee,2,444,"['U100', 'U201']"
+U443,Mitchell Wright,4,1173,"['U334', 'U346', 'U375', 'U452']"
+U444,Crystal Smith,2,135,"['U267', 'U284']"
+U445,James Spears,2,311,"['U471', 'U690']"
+U446,David Cohen,3,239,"['U235', 'U337', 'U425']"
+U447,Sheryl Morton,5,1375,"['U174', 'U209', 'U357', 'U459', 'U978']"
+U448,Cassie Porter,2,415,"['U807', 'U828']"
+U449,Jacqueline Hughes,3,720,"['U134', 'U161', 'U348']"
+U450,Richard Carter II,0,0,[]
+U451,Laura Rivera,2,571,"['U136', 'U138']"
+U452,Sarah Bush,4,1242,"['U339', 'U481', 'U650', 'U926']"
+U453,Aaron Weiss,1,361,['U874']
+U454,Brandon Lewis,1,332,['U573']
+U455,Alexandra Myers,1,256,['U914']
+U456,Mason Franklin,2,133,"['U64', 'U871']"
+U457,Michael Miles,3,534,"['U74', 'U286', 'U751']"
+U458,Hector Garcia,3,938,"['U109', 'U128', 'U560']"
+U459,Elizabeth Perez,0,0,[]
+U460,Brittney Gonzalez,1,149,['U617']
+U461,Amanda Tucker,1,154,['U38']
+U462,Susan King,3,1102,"['U100', 'U224', 'U451']"
+U463,Emily Wright,4,942,"['U180', 'U571', 'U796', 'U840']"
+U464,Daniel Goodman,2,462,"['U168', 'U353']"
+U465,Joseph Maynard,7,1974,"['U71', 'U306', 'U536', 'U700', 'U731', 'U823', 'U983']"
+U466,Ronnie Martinez,1,336,['U962']
+U467,Martha Compton,0,0,[]
+U468,Samuel Richardson,2,532,"['U156', 'U357']"
+U469,Adam Gill,1,80,['U663']
+U470,Shannon Moore,3,527,"['U309', 'U356', 'U905']"
+U471,Tyler Harper,1,189,['U786']
+U472,Jennifer Gray MD,2,288,"['U430', 'U701']"
+U473,Charles Watkins,3,849,"['U657', 'U738', 'U947']"
+U474,Earl Lopez,1,211,['U97']
+U475,Kim Cox,1,255,['U103']
+U476,Darren Ballard,1,276,['U565']
+U477,Ashley Schwartz,2,510,"['U346', 'U353']"
+U478,Mariah Boyd,2,836,"['U31', 'U432']"
+U479,Matthew Murray,3,1053,"['U281', 'U655', 'U937']"
+U480,Caitlin Young,4,667,"['U62', 'U155', 'U430', 'U875']"
+U481,Megan Jimenez,4,1158,"['U2', 'U698', 'U719', 'U731']"
+U482,Laura Graham,2,699,"['U231', 'U654']"
+U483,Courtney Schmitt,2,359,"['U811', 'U997']"
+U484,Robin Freeman,4,751,"['U437', 'U565', 'U713', 'U956']"
+U485,Heather Obrien,2,545,"['U182', 'U339']"
+U486,Kristen Hunter,3,494,"['U127', 'U682', 'U991']"
+U487,Jennifer Craig,5,1126,"['U300', 'U361', 'U723', 'U742', 'U865']"
+U488,Richard Nguyen,5,1549,"['U113', 'U331', 'U724', 'U868', 'U988']"
+U489,Daniel Owen,4,1195,"['U89', 'U162', 'U286', 'U540']"
+U490,Johnny Mcdaniel,3,973,"['U578', 'U704', 'U769']"
+U491,Jimmy Nguyen,1,490,['U599']
+U492,James Adams,0,0,[]
+U493,Michael Green,0,0,[]
+U494,Andrew Barker,3,806,"['U169', 'U572', 'U645']"
+U495,Chase Conrad,2,294,"['U239', 'U246']"
+U496,Joseph Brown,0,0,[]
+U497,Kendra Jones,1,120,['U425']
+U498,Candace Peterson,3,377,"['U169', 'U854', 'U939']"
+U499,Christopher Murphy,2,917,"['U68', 'U76']"
+U500,Daniel Fuentes,1,415,['U538']
+U501,Derek Parks,2,391,"['U534', 'U665']"
+U502,Troy Sutton,1,96,['U28']
+U503,Cynthia Dickson,4,965,"['U155', 'U797', 'U936', 'U991']"
+U504,Brian Sparks,2,499,"['U164', 'U885']"
+U505,Shannon Clark,4,1089,"['U552', 'U628', 'U831', 'U924']"
+U506,Kimberly Sanchez,2,345,"['U185', 'U235']"
+U507,Evan Thompson,3,1080,"['U449', 'U811', 'U999']"
+U508,Lindsey Ferrell,2,214,"['U592', 'U875']"
+U509,Megan Hunter,3,823,"['U355', 'U543', 'U963']"
+U510,Kenneth Brown,1,356,['U565']
+U511,Philip Lewis,4,1448,"['U42', 'U413', 'U647', 'U777']"
+U512,Tiffany Lang,5,1261,"['U20', 'U26', 'U532', 'U636', 'U748']"
+U513,Carla Franklin,4,916,"['U69', 'U156', 'U575', 'U623']"
+U514,Elijah Graham,0,0,[]
+U515,Daniel Fields,1,211,['U347']
+U516,Lisa Wise,0,0,[]
+U517,Rebecca King,0,0,[]
+U518,Nathan Schroeder,1,288,['U484']
+U519,Kimberly Horn MD,1,476,['U437']
+U520,Joanna Potter,2,574,"['U157', 'U240']"
+U521,Michael Beck,2,608,"['U227', 'U458']"
+U522,Jordan Gutierrez,3,556,"['U224', 'U504', 'U986']"
+U523,Bethany Lyons MD,2,285,"['U543', 'U597']"
+U524,Victor Gray,1,405,['U166']
+U525,Robert Mcdonald,3,636,"['U19', 'U146', 'U868']"
+U526,Lori Olsen,1,396,['U709']
+U527,Kimberly Smith,1,96,['U168']
+U528,Angela Williams,2,135,"['U43', 'U873']"
+U529,Adam Perez,4,882,"['U296', 'U489', 'U499', 'U597']"
+U530,Michael Wilson,5,1153,"['U418', 'U445', 'U899', 'U947', 'U984']"
+U531,Mia Price,4,893,"['U16', 'U43', 'U146', 'U786']"
+U532,Caitlin Acosta,2,635,"['U749', 'U788']"
+U533,Christie Watts,3,403,"['U313', 'U552', 'U735']"
+U534,Joanna Roberts,2,525,"['U216', 'U355']"
+U535,Ryan Holt,4,977,"['U147', 'U399', 'U484', 'U637']"
+U536,Julie Villa,1,246,['U594']
+U537,Paula Erickson,2,272,"['U8', 'U654']"
+U538,Michele Cortez,0,0,[]
+U539,Valerie Scott,2,737,"['U70', 'U270']"
+U540,Jerry Arnold,3,691,"['U32', 'U345', 'U603']"
+U541,Erica Johnson,1,66,['U627']
+U542,Andrea Williams,4,1181,"['U114', 'U393', 'U606', 'U683']"
+U543,Dylan Bentley,2,589,"['U641', 'U748']"
+U544,Richard Cross,4,837,"['U31', 'U200', 'U257', 'U257']"
+U545,Tina Garcia,2,642,"['U580', 'U807']"
+U546,Samantha Fuller,0,0,[]
+U547,Alice Murphy,2,204,"['U422', 'U640']"
+U548,Billy Patel,0,0,[]
+U549,Edward Smith,3,546,"['U231', 'U307', 'U485']"
+U550,Lori Mcdowell,1,347,['U959']
+U551,Vicki Jordan DDS,1,475,['U611']
+U552,Patricia Roberson,2,746,"['U513', 'U651']"
+U553,Lee Salazar,3,898,"['U30', 'U776', 'U974']"
+U554,William Fisher,3,520,"['U79', 'U461', 'U647']"
+U555,Eric Fernandez,2,249,"['U387', 'U414']"
+U556,Russell Griffith,0,0,[]
+U557,Debra Jones,1,404,['U412']
+U558,Jessica Santos,4,1179,"['U171', 'U469', 'U538', 'U802']"
+U559,Javier Sawyer,0,0,[]
+U560,Andrew Hines,1,432,['U801']
+U561,Melanie Simmons,1,153,['U713']
+U562,Natasha Harrison,0,0,[]
+U563,Bailey Roberts,4,1128,"['U479', 'U757', 'U832', 'U909']"
+U564,Natalie Macias,2,944,"['U149', 'U776']"
+U565,Thomas Mayer,1,73,['U279']
+U566,Mark Hanna,1,497,['U415']
+U567,Terry Moore,0,0,[]
+U568,Jessica Price,2,554,"['U552', 'U613']"
+U569,Bridget Contreras,1,466,['U185']
+U570,Kimberly Butler,3,760,"['U19', 'U441', 'U863']"
+U571,Mary Leon,2,393,"['BOSS_1', 'U507']"
+U572,Dylan Garcia,0,0,[]
+U573,Amy Melendez,0,0,[]
+U574,Malik Williams,0,0,[]
+U575,Richard Martin,2,311,"['U539', 'U806']"
+U576,Kathy Maxwell,1,42,['U647']
+U577,Matthew Martinez,2,508,"['U290', 'U566']"
+U578,Evan Quinn,5,1719,"['U94', 'U398', 'U536', 'U636', 'U857']"
+U579,James Key,3,799,"['U101', 'U224', 'U462']"
+U580,Virginia Vargas,3,1042,"['U206', 'U397', 'U959']"
+U581,Joseph Barrera,0,0,[]
+U582,Daniel Berry,2,234,"['U201', 'U379']"
+U583,Christian Gomez,5,1200,"['U37', 'U292', 'U329', 'U621', 'U821']"
+U584,Stephen Dean,2,605,"['U98', 'U226']"
+U585,Nicole Vazquez,1,477,['U516']
+U586,Caroline Daniels,1,407,['U853']
+U587,Lisa Knight,3,896,"['U387', 'U726', 'U792']"
+U588,James Vargas,2,437,"['U186', 'U890']"
+U589,Debra Vaughn,3,961,"['U531', 'U738', 'U970']"
+U590,Jennifer Wolfe,1,472,['U95']
+U591,Melissa Baker,2,666,"['U446', 'U796']"
+U592,Christina Rice,3,678,"['U136', 'U771', 'U841']"
+U593,Lorraine Diaz,1,217,['U494']
+U594,Alexa Maldonado,2,825,"['U131', 'U626']"
+U595,Joseph Woods,4,926,"['U1', 'U417', 'U678', 'U688']"
+U596,David King,1,409,['U345']
+U597,Kevin Haas,4,523,"['U33', 'U185', 'U664', 'U930']"
+U598,Marcus Jones,2,346,"['U87', 'U394']"
+U599,Jacob Davila,2,916,"['U53', 'U979']"
+U600,Nicole Turner,1,125,['U292']
+U601,Randall Atkinson,2,625,"['U355', 'U788']"
+U602,Monica Patterson,2,517,"['U784', 'U802']"
+U603,Joshua Winters,2,527,"['U7', 'U394']"
+U604,Dana Nicholson,1,82,['U822']
+U605,Jason Kim,3,805,"['U436', 'U650', 'U881']"
+U606,Aaron Thomas,1,232,['U378']
+U607,John Jones,0,0,[]
+U608,Dwayne Paul,1,369,['U818']
+U609,Madison Porter,2,273,"['U319', 'U635']"
+U610,Lucas Miller,2,417,"['U190', 'U851']"
+U611,Maria Baldwin,2,325,"['U253', 'U626']"
+U612,Adrienne Carter,2,575,"['U341', 'U378']"
+U613,Samuel Haynes,2,646,"['BOSS_1', 'U408']"
+U614,Kimberly Osborn,1,116,['U401']
+U615,Patricia Walker,0,0,[]
+U616,Morgan Schneider,1,107,['U380']
+U617,Cody Ballard,1,167,['U803']
+U618,Timothy Valentine,2,826,"['U225', 'U523']"
+U619,Jordan Maldonado,0,0,[]
+U620,Thomas Douglas,3,1223,"['U111', 'U143', 'U314']"
+U621,Pamela Avila,1,484,['U127']
+U622,Shane Lawrence,4,803,"['U147', 'U262', 'U631', 'U715']"
+U623,Margaret Yoder,1,167,['U834']
+U624,Timothy Thomas,2,258,"['U384', 'U638']"
+U625,Claudia Kidd,1,300,['U451']
+U626,Marie Jones,2,594,"['U564', 'U802']"
+U627,Amanda Martin,2,583,"['U52', 'U635']"
+U628,Julie Malone,4,1237,"['U64', 'U98', 'U101', 'U854']"
+U629,David Zimmerman,3,691,"['U358', 'U914', 'U961']"
+U630,Gabriel Anthony,0,0,[]
+U631,Timothy Fields,4,487,"['U343', 'U470', 'U648', 'U818']"
+U632,Antonio Ingram,0,0,[]
+U633,Peter Lewis,0,0,[]
+U634,Brian Rogers,3,1001,"['U418', 'U518', 'U600']"
+U635,Kristin Pratt,0,0,[]
+U636,Olivia Huang DVM,2,615,"['U579', 'U725']"
+U637,Tanner Perez,3,808,"['U626', 'U718', 'U718']"
+U638,Aaron Martin DDS,0,0,[]
+U639,Steven Vance,1,349,['U153']
+U640,Joshua Burns,2,783,"['U401', 'U686']"
+U641,Michael Anderson,4,1266,"['U419', 'U454', 'U563', 'U761']"
+U642,Jodi Valentine,0,0,[]
+U643,Michael Walsh,0,0,[]
+U644,Brian Gonzalez,2,214,"['U484', 'U505']"
+U645,Brenda Osborne,2,798,"['U828', 'U830']"
+U646,Terry Richardson,2,409,"['U57', 'BOSS_1']"
+U647,Sonya Underwood,1,475,['U914']
+U648,Rachel Fuentes,0,0,[]
+U649,Caleb Taylor,2,521,"['U268', 'U359']"
+U650,Mr. Michael Yang,2,658,"['U295', 'U393']"
+U651,Johnathan Simmons,2,785,"['U352', 'U710']"
+U652,Laura Hood,1,395,['U935']
+U653,Robert Stafford,2,122,"['U290', 'U307']"
+U654,Shawn Hughes,0,0,[]
+U655,Scott Stevens,3,1188,"['U390', 'U451', 'U580']"
+U656,Mr. Jason Johnston,2,545,"['U334', 'U450']"
+U657,Kathy Smith,1,288,['U709']
+U658,Dr. Christina Blair,3,662,"['U485', 'U786', 'U871']"
+U659,Ashley Parker,2,500,"['U744', 'U831']"
+U660,Christopher Johnson,2,895,"['U97', 'U622']"
+U661,Laura Crawford,1,270,['U753']
+U662,James Foster,3,791,"['MULE_1_2', 'U284', 'U514']"
+U663,Kelly Kent,2,407,"['U246', 'U403']"
+U664,Phillip Alvarez,2,685,"['U148', 'U300']"
+U665,Joshua Waters,3,565,"['U46', 'U217', 'U369']"
+U666,Ashley Mcbride,1,350,['U381']
+U667,James Roberts,2,203,"['U106', 'U192']"
+U668,Dr. Matthew Pugh,0,0,[]
+U669,Juan Copeland,2,308,"['U115', 'U813']"
+U670,Summer English,3,591,"['U286', 'U552', 'U835']"
+U671,Bradley Wheeler,3,439,"['U231', 'U560', 'U996']"
+U672,Emma Wilson,3,1030,"['U219', 'U846', 'U920']"
+U673,Brittany Mccoy,3,465,"['U212', 'U234', 'U893']"
+U674,Nicole Taylor,0,0,[]
+U675,Sherry Hoffman,3,1065,"['U47', 'U463', 'U732']"
+U676,Andrew Jackson,5,1452,"['U612', 'U624', 'U701', 'U787', 'U811']"
+U677,Heather Schmidt,7,1801,"['U4', 'U48', 'U392', 'U455', 'U639', 'U726', 'U892']"
+U678,Catherine Horton,3,641,"['U23', 'U432', 'U564']"
+U679,David Smith,1,437,['U953']
+U680,Julia Hess,1,75,['U195']
+U681,James Arroyo,0,0,[]
+U682,Kathleen Lee,1,319,['U731']
+U683,Jessica Smith,1,81,['MULE_1_2']
+U684,Teresa Chambers,2,491,"['U314', 'U803']"
+U685,Dylan Guerrero,2,487,"['U506', 'U688']"
+U686,Matthew Morgan,3,496,"['U126', 'U203', 'U710']"
+U687,Melinda Boyd,2,354,"['U524', 'U653']"
+U688,Gerald Lopez,4,705,"['U155', 'U307', 'U535', 'U648']"
+U689,Erica Johnson,1,372,['U238']
+U690,Kathryn Rivera,1,265,['U289']
+U691,Mark Nash,0,0,[]
+U692,Ryan Gordon III,1,110,['U12']
+U693,Jeremy Bryan,3,762,"['U302', 'U784', 'U856']"
+U694,Andrew Allen,2,617,"['U585', 'U817']"
+U695,Jo Williams,1,345,['U93']
+U696,Tyler Brewer,1,128,['U642']
+U697,Kenneth Mosley,7,2086,"['U62', 'U68', 'U234', 'U348', 'U370', 'U587', 'U865']"
+U698,Jimmy Fox,5,1206,"['U125', 'U294', 'U320', 'U573', 'U779']"
+U699,Joshua Gonzalez,0,0,[]
+U700,Austin Lloyd,3,554,"['U105', 'U515', 'U574']"
+U701,Leslie Jones,2,451,"['U433', 'U535']"
+U702,Gina Ortega,6,1896,"['U75', 'U108', 'U414', 'U530', 'U765', 'U971']"
+U703,Sharon Brown,2,795,"['U230', 'U429']"
+U704,Raven Morrison,4,1431,"['U210', 'U362', 'U587', 'U865']"
+U705,Kyle Evans,2,886,"['U30', 'U569']"
+U706,Denise Williams,3,350,"['U243', 'U667', 'U910']"
+U707,Debbie Lewis,4,770,"['U710', 'U849', 'U886', 'U979']"
+U708,Patricia Brown,1,475,['U147']
+U709,Daniel Rodriguez,2,211,"['U45', 'U419']"
+U710,Antonio Madden,2,611,"['U475', 'U754']"
+U711,Brian Perez,0,0,[]
+U712,Taylor Pineda,3,160,"['U15', 'U664', 'U682']"
+U713,Nancy Good,4,1019,"['U129', 'U281', 'U573', 'U970']"
+U714,Jay Wolfe,1,409,['U285']
+U715,Christine Adams,0,0,[]
+U716,Glenn Rivera,2,528,"['U448', 'U939']"
+U717,Louis Garcia,3,785,"['U633', 'U963', 'U982']"
+U718,Catherine Ford,2,294,"['U159', 'U747']"
+U719,Erica Chan,2,201,"['U186', 'U593']"
+U720,Jeremy Sutton,1,344,['U497']
+U721,William Williams,2,700,"['U804', 'U995']"
+U722,John Martinez,0,0,[]
+U723,Benjamin Prince,5,809,"['U113', 'U387', 'U502', 'U675', 'U693']"
+U724,Kevin Schmidt,4,1207,"['U62', 'U211', 'U416', 'U755']"
+U725,Sarah Clay,3,744,"['U505', 'U625', 'U906']"
+U726,Shirley Melendez,3,939,"['U422', 'U671', 'U789']"
+U727,Rachel Hudson,5,868,"['U138', 'U503', 'U572', 'U639', 'U791']"
+U728,Charles Vaughn,3,694,"['U88', 'U248', 'U800']"
+U729,Edwin Dunn,2,517,"['U24', 'U870']"
+U730,Thomas Holt,2,816,"['U145', 'U538']"
+U731,Michelle Dalton,2,753,"['U465', 'U836']"
+U732,Christopher Mann,4,1226,"['U117', 'U203', 'U794', 'U899']"
+U733,Austin Hunt,1,252,['U746']
+U734,Sarah Parker,3,707,"['U377', 'U518', 'U657']"
+U735,Scott Robbins,1,240,['U604']
+U736,Jennifer King,2,344,"['U273', 'U274']"
+U737,Beth Lee,3,833,"['U353', 'U763', 'U817']"
+U738,Kimberly Donovan,0,0,[]
+U739,Chelsea Robinson,1,441,['U158']
+U740,Jessica Ortiz,3,1048,"['U480', 'U590', 'U936']"
+U741,Jessica Benjamin,0,0,[]
+U742,Tonya King,0,0,[]
+U743,Dawn Meyer,2,459,"['U671', 'U749']"
+U744,Elizabeth Owen,3,852,"['U292', 'U536', 'U597']"
+U745,Eric Martin,1,446,['U22']
+U746,Nicole Baker,1,229,['U168']
+U747,Monique Gibson,2,664,"['MULE_1_3', 'U148']"
+U748,Shawn White,1,386,['U424']
+U749,Garrett Meyer,1,293,['U934']
+U750,Brian Cunningham,1,151,['U601']
+U751,Molly Hobbs,2,628,"['U277', 'U536']"
+U752,Michael Palmer,0,0,[]
+U753,Michael Aguilar,1,472,['U556']
+U754,Lydia Park,1,383,['U569']
+U755,Madison Morris,2,549,"['U34', 'U956']"
+U756,Amber Williams,3,1142,"['U146', 'U376', 'U423']"
+U757,Jared Evans,2,524,"['U146', 'U374']"
+U758,Jacob Larson,1,468,['U429']
+U759,Robert Houston,3,793,"['U183', 'U654', 'U998']"
+U760,Jonathan Adkins,4,1195,"['U338', 'U624', 'U743', 'U892']"
+U761,Patricia Davila,1,293,['U11']
+U762,Eric Murillo,2,520,"['U1', 'U263']"
+U763,Tina Newman,2,645,"['U536', 'U946']"
+U764,Nicholas Bailey,6,2124,"['U62', 'U242', 'U339', 'U496', 'U567', 'U641']"
+U765,Shawn Baker,1,317,['U850']
+U766,Dalton Gillespie,4,1313,"['U20', 'U65', 'U116', 'U469']"
+U767,Scott Wood,1,288,['U469']
+U768,Anita Smith,1,178,['U555']
+U769,Dakota Smith,1,392,['U250']
+U770,Kevin Bender,0,0,[]
+U771,Becky Ramirez,2,513,"['U264', 'U773']"
+U772,Phillip Myers,3,740,"['U109', 'U352', 'U931']"
+U773,Diana Armstrong,1,280,['U932']
+U774,Sean Jackson,6,961,"['U37', 'U249', 'U404', 'U437', 'U666', 'U955']"
+U775,Jeffrey Stewart,1,480,['U488']
+U776,Natalie Potter,4,1558,"['U145', 'U204', 'U244', 'U955']"
+U777,Michael Waller,1,74,['U191']
+U778,John Watson,2,759,"['U264', 'U952']"
+U779,Joseph Perez,4,1044,"['U97', 'BOSS_1', 'U798', 'U834']"
+U780,Michael Hawkins,1,10,['U175']
+U781,Victoria Delgado,1,190,['U732']
+U782,Patrick Benton,1,354,['U334']
+U783,Dennis Lewis,3,577,"['U198', 'U361', 'U465']"
+U784,Michael Andrade,1,101,['U607']
+U785,Angel Caldwell MD,2,801,"['U211', 'U797']"
+U786,Tyler Duncan,2,542,"['U679', 'U913']"
+U787,Shelby Flores,2,542,"['U410', 'U666']"
+U788,James Wright,1,128,['U155']
+U789,Jeffrey Sparks,5,1133,"['U264', 'U382', 'U826', 'U873', 'U996']"
+U790,James Davis,1,412,['U799']
+U791,Trevor Goodwin,0,0,[]
+U792,Erin Richardson,1,225,['U260']
+U793,Antonio Schultz,2,353,"['U125', 'U645']"
+U794,Mariah Watson,3,958,"['U56', 'U269', 'U502']"
+U795,Jeffrey Wong,2,643,"['U360', 'U727']"
+U796,David Smith,3,844,"['U226', 'U284', 'U390']"
+U797,Jeffery Ortiz,2,744,"['U330', 'U373']"
+U798,Amanda Robinson,2,611,"['U217', 'U617']"
+U799,Jennifer Norris,1,194,['U42']
+U800,Jordan Ramirez,3,900,"['U164', 'U188', 'U252']"
+U801,Brian Franklin,4,1247,"['U69', 'U233', 'U299', 'U916']"
+U802,Mark Morrison,1,110,['U592']
+U803,Jonathan Smith,2,182,"['U514', 'U731']"
+U804,Spencer Roberts,0,0,[]
+U805,Annette Mitchell,5,1121,"['U143', 'U332', 'U342', 'U354', 'U816']"
+U806,Juan Ramirez,4,1352,"['U238', 'U300', 'U512', 'U923']"
+U807,Gary Brooks,2,195,"['U28', 'U993']"
+U808,Christopher Campbell,2,474,"['U102', 'U503']"
+U809,Robert Foster,3,524,"['U206', 'U654', 'U936']"
+U810,Veronica Vaughn,3,466,"['U419', 'U457', 'U783']"
+U811,Benjamin Robinson,0,0,[]
+U812,Elizabeth Adams,2,620,"['U806', 'U987']"
+U813,Patricia Jenkins,4,894,"['U247', 'U464', 'U822', 'U978']"
+U814,Pamela Johnson,5,1384,"['U238', 'U305', 'U551', 'U560', 'U983']"
+U815,Denise Mcdonald,2,280,"['U85', 'U177']"
+U816,Jennifer Brown,2,439,"['U144', 'U164']"
+U817,Bradley Graves,0,0,[]
+U818,Christina Ross,5,1493,"['U321', 'U453', 'U791', 'U932', 'U985']"
+U819,Valerie Hernandez,2,681,"['U511', 'U904']"
+U820,Patty Williams,1,392,['U956']
+U821,Suzanne Aguirre,1,297,['U543']
+U822,Jerry Banks,1,313,['U798']
+U823,Heather Hernandez,3,738,"['U566', 'U714', 'U840']"
+U824,William Jackson,1,73,['U884']
+U825,Jennifer Gibson,1,376,['U31']
+U826,Mary West,2,900,"['U543', 'U560']"
+U827,Samuel Lester,2,515,"['U672', 'U933']"
+U828,Ashley Stone,1,394,['U674']
+U829,Natalie Huff,1,340,['U632']
+U830,Betty Gilmore,1,93,['U434']
+U831,Shelly Gray,1,489,['U171']
+U832,Michelle Davis,1,376,['U918']
+U833,Brooke Richardson,2,755,"['U224', 'U426']"
+U834,Daniel Dixon,1,55,['U854']
+U835,Melissa Benjamin,2,703,"['U607', 'U811']"
+U836,Holly Smith,1,409,['U506']
+U837,Peggy Wilson,1,194,['U221']
+U838,Cole Hernandez,4,989,"['U314', 'U516', 'U607', 'U875']"
+U839,Madeline Hanson,1,370,['U583']
+U840,Robin Smith,2,420,"['U386', 'U968']"
+U841,Michael Norris,3,624,"['U265', 'U339', 'U839']"
+U842,Suzanne Fuentes,3,823,"['U619', 'U925', 'U944']"
+U843,Sean Holmes,7,2030,"['U64', 'U189', 'U291', 'U411', 'U629', 'U725', 'U992']"
+U844,Matthew Edwards,3,856,"['U192', 'U248', 'U709']"
+U845,Christopher Mcdonald,0,0,[]
+U846,David Nelson,4,1130,"['U102', 'U251', 'U362', 'U393']"
+U847,Brandi Reilly,1,279,['U93']
+U848,Diana Smith,0,0,[]
+U849,Dennis Lamb,1,55,['U304']
+U850,Joe Johnson,0,0,[]
+U851,Sean Harrison,3,1087,"['U608', 'U825', 'U954']"
+U852,Alexandra Long,3,1070,"['U95', 'U423', 'U682']"
+U853,Michael Brown,3,331,"['U321', 'U703', 'U828']"
+U854,Marcus Coffey,4,723,"['U27', 'U395', 'U734', 'U861']"
+U855,Daniel Dominguez,1,403,['U486']
+U856,Erika Williams,1,78,['U988']
+U857,Wesley Fisher,5,796,"['U81', 'U138', 'U319', 'U530', 'U676']"
+U858,Michael Rose,2,564,"['U269', 'U496']"
+U859,Christopher Flores,1,294,['U108']
+U860,Ralph Frazier,0,0,[]
+U861,Aaron Fritz,0,0,[]
+U862,Ashley Collins,1,69,['U745']
+U863,Mark Olson,7,1403,"['U55', 'U195', 'U217', 'U455', 'U482', 'U681', 'U916']"
+U864,Casey Thomas,1,129,['U599']
+U865,David Anderson,1,75,['U824']
+U866,Matthew Turner,0,0,[]
+U867,Justin Hayes,0,0,[]
+U868,Melissa Higgins,1,175,['U834']
+U869,Anthony Bishop,4,699,"['U306', 'U422', 'U490', 'U653']"
+U870,James Garcia,3,919,"['U114', 'U209', 'U578']"
+U871,Carol Martinez,2,594,"['U84', 'U731']"
+U872,Ralph Nunez,1,362,['U275']
+U873,Dennis Cunningham,5,1452,"['U34', 'U328', 'U586', 'U737', 'U830']"
+U874,Lee Bell,2,605,"['U185', 'U923']"
+U875,Melissa Guzman,0,0,[]
+U876,Mr. Justin Dunlap MD,1,396,['U676']
+U877,Andre Russell,4,1365,"['U54', 'U126', 'U520', 'U665']"
+U878,Nancy Garcia,1,243,['U660']
+U879,Dana Bell,4,1530,"['U21', 'U174', 'U284', 'U939']"
+U880,Dr. Bradley Ramirez,3,730,"['U232', 'U573', 'U770']"
+U881,Matthew Peterson,2,662,"['U348', 'U837']"
+U882,Elizabeth Patterson,1,310,['U243']
+U883,Brian Bradley,1,314,['U486']
+U884,Christopher Conner,1,209,['U842']
+U885,Sara Tucker,0,0,[]
+U886,Abigail Obrien,1,415,['U527']
+U887,Ashley Jimenez,1,361,['U632']
+U888,Jeremy Owens,4,708,"['U148', 'U526', 'U634', 'U841']"
+U889,Matthew Brady,3,1046,"['U223', 'U452', 'U683']"
+U890,Jennifer Gray,2,629,"['U249', 'U971']"
+U891,Jasmine Webb,2,474,"['U101', 'U651']"
+U892,Shane Morris,5,1251,"['U3', 'U144', 'U723', 'U747', 'U886']"
+U893,Nathan Kennedy,5,1276,"['U463', 'U567', 'U800', 'U842', 'U920']"
+U894,Sarah Bonilla,3,536,"['U376', 'U468', 'U724']"
+U895,Shane Campbell,2,306,"['U75', 'U575']"
+U896,Ashlee Valenzuela,0,0,[]
+U897,Sara Butler,0,0,[]
+U898,Jack Murphy,2,630,"['U45', 'U911']"
+U899,David Little,1,222,['U646']
+U900,Nathan Hart,3,1054,"['U478', 'U934', 'U989']"
+U901,Richard Hensley,4,1097,"['U166', 'U524', 'U743', 'U767']"
+U902,Shelley Arnold,1,170,['U822']
+U903,Zachary Peters,0,0,[]
+U904,Guy Beasley,0,0,[]
+U905,Alan Davis Jr.,1,274,['U772']
+U906,Jordan Franklin,3,716,"['U306', 'U428', 'U445']"
+U907,Christine Sanders,3,926,"['U276', 'U305', 'U422']"
+U908,Kim Duarte,1,160,['U633']
+U909,George Barnett,2,209,"['U285', 'U540']"
+U910,Janice Hernandez,3,926,"['U52', 'U526', 'U630']"
+U911,Amanda Lane,2,965,"['U172', 'U445']"
+U912,Stephanie Sullivan,4,1066,"['U255', 'U301', 'U564', 'U798']"
+U913,Joseph Warren,3,708,"['U287', 'U594', 'U844']"
+U914,Melissa Leach,2,462,"['U242', 'U738']"
+U915,Ryan Johnson,2,600,"['U31', 'U739']"
+U916,Carolyn Carroll,2,638,"['U2', 'U632']"
+U917,Christopher Knight,1,94,['U103']
+U918,Donna Davis,2,872,"['U289', 'U789']"
+U919,Brian Boyle,5,1083,"['U118', 'U201', 'U717', 'U846', 'U882']"
+U920,Brian Williams,3,1150,"['U445', 'U507', 'U657']"
+U921,Ronald Faulkner,0,0,[]
+U922,Angela Lane,1,436,['U797']
+U923,Gregory Cruz,2,847,"['U340', 'U689']"
+U924,Breanna Brooks MD,1,320,['U638']
+U925,Elizabeth Schneider,0,0,[]
+U926,Michael Sexton,2,549,"['U477', 'U705']"
+U927,Amy Meadows,1,88,['U920']
+U928,Danny Cummings DDS,3,212,"['U312', 'U362', 'U676']"
+U929,Laura Horne,1,195,['U749']
+U930,Dr. Eric Cummings,1,275,['U758']
+U931,Dr. Karina Beltran,4,970,"['U464', 'U659', 'U905', 'U956']"
+U932,Megan Compton,1,286,['U706']
+U933,Nancy Chan,2,202,"['U404', 'U628']"
+U934,Kelsey Osborn,1,196,['U869']
+U935,Jessica Estes,2,962,"['U134', 'U807']"
+U936,Stephanie Acevedo,3,578,"['U129', 'U868', 'U959']"
+U937,Cassie Delacruz,4,578,"['U303', 'U685', 'U821', 'U931']"
+U938,Samuel Tran,3,379,"['U119', 'U121', 'U800']"
+U939,Whitney Rose,4,686,"['U84', 'U90', 'U742', 'U992']"
+U940,Michael Taylor,2,185,"['U405', 'U795']"
+U941,Catherine Robinson,3,799,"['U393', 'U433', 'U736']"
+U942,Victor English,4,898,"['MULE_1_4', 'U238', 'U392', 'U756']"
+U943,Patricia Smith,2,291,"['U249', 'U495']"
+U944,David Perez,2,547,"['U104', 'U196']"
+U945,Rebecca Stevens,1,131,['U837']
+U946,Sandra Thompson,1,255,['U794']
+U947,Michelle Smith,2,486,"['U539', 'U971']"
+U948,Karen Chapman,2,508,"['U683', 'U693']"
+U949,Jaclyn Watson,2,200,"['U715', 'U840']"
+U950,Kevin Bernard,1,148,['U363']
+U951,Michael Garcia,4,890,"['U512', 'U603', 'U848', 'U921']"
+U952,Matthew Keith,4,1042,"['U142', 'U195', 'U534', 'U582']"
+U953,Gregory Howard,1,238,['U945']
+U954,Bradley Joseph,1,184,['U987']
+U955,Mrs. Michaela Guerra,0,0,[]
+U956,Megan Washington,3,520,"['U220', 'U606', 'U609']"
+U957,Joshua Kane,5,1304,"['MULE_1_1', 'U317', 'U568', 'U703', 'U963']"
+U958,Amber Brooks,2,601,"['U417', 'U523']"
+U959,Nathan Cummings,1,335,['U135']
+U960,Kimberly Hale,1,447,['U455']
+U961,Mr. Paul Gutierrez,1,235,['U746']
+U962,Katrina Walsh,0,0,[]
+U963,Elizabeth Smith,2,471,"['U693', 'U773']"
+U964,Marc Randolph,1,364,['U530']
+U965,James Brewer,3,601,"['U222', 'U290', 'U758']"
+U966,David Fox,2,552,"['U211', 'U373']"
+U967,Courtney Bell,2,496,"['U264', 'U805']"
+U968,Shelly Harvey,1,47,['U987']
+U969,Kim Freeman,2,302,"['U229', 'U578']"
+U970,Christopher Hart,3,350,"['U207', 'U213', 'U479']"
+U971,Erika Moreno,1,406,['U632']
+U972,Joann Maxwell,0,0,[]
+U973,William Jones,2,250,"['U351', 'U391']"
+U974,Lisa Daniel,2,192,"['U40', 'U370']"
+U975,Justin Fletcher,1,113,['U991']
+U976,Jennifer White,0,0,[]
+U977,Catherine Gonzalez,2,338,"['MULE_1_4', 'U596']"
+U978,Derek Smith,3,563,"['U75', 'U249', 'U619']"
+U979,Todd Edwards,2,152,"['U285', 'U374']"
+U980,Lisa Martinez,1,113,['U340']
+U981,Nicholas Christensen,2,588,"['U308', 'U317']"
+U982,Mark Davis,1,443,['U238']
+U983,Allison Terry,0,0,[]
+U984,Diane Hamilton,2,698,"['U390', 'U428']"
+U985,Anita Kelly,0,0,[]
+U986,Timothy Martinez,2,275,"['U859', 'U924']"
+U987,Harold Santos,1,362,['U623']
+U988,Amanda Murphy,2,359,"['U398', 'U841']"
+U989,Travis Mendoza,1,447,['U256']
+U990,Brandy Cook,5,1397,"['U97', 'U389', 'U406', 'U679', 'U754']"
+U991,Michael Donaldson,1,497,['U482']
+U992,David Dunn,0,0,[]
+U993,Taylor Casey,3,214,"['U193', 'U206', 'U683']"
+U994,Lauren Mack,0,0,[]
+U995,Alexis Kennedy,1,235,['U129']
+U996,David Warren,3,853,"['U212', 'U304', 'U394']"
+U997,Cynthia Taylor,2,556,"['U411', 'U805']"
+U998,Caroline Adams,1,122,['U386']
+U999,Jessica Scott,1,448,['U423']
+BOSS_0,,5,45000,"['MULE_0_0', 'MULE_0_1', 'MULE_0_2', 'MULE_0_3', 'MULE_0_4']"
+MULE_0_0,,1,8500,['SHELL_0']
+MULE_0_1,,1,8500,['SHELL_0']
+MULE_0_2,,1,8500,['SHELL_0']
+MULE_0_3,,1,8500,['SHELL_0']
+MULE_0_4,,1,8500,['SHELL_0']
+SHELL_0,,0,0,[]
+BOSS_2,,5,45000,"['MULE_2_0', 'MULE_2_1', 'MULE_2_2', 'MULE_2_3', 'MULE_2_4']"
+MULE_2_0,,1,8500,['SHELL_2']
+MULE_2_1,,1,8500,['SHELL_2']
+MULE_2_2,,1,8500,['SHELL_2']
+MULE_2_3,,1,8500,['SHELL_2']
+MULE_2_4,,1,8500,['SHELL_2']
+SHELL_2,,0,0,[]
+BOSS_3,,5,45000,"['MULE_3_0', 'MULE_3_1', 'MULE_3_2', 'MULE_3_3', 'MULE_3_4']"
+MULE_3_0,,1,8500,['SHELL_3']
+MULE_3_1,,1,8500,['SHELL_3']
+MULE_3_2,,1,8500,['SHELL_3']
+MULE_3_3,,1,8500,['SHELL_3']
+MULE_3_4,,1,8500,['SHELL_3']
+SHELL_3,,0,0,[]
+BOSS_4,,5,45000,"['MULE_4_0', 'MULE_4_1', 'MULE_4_2', 'MULE_4_3', 'MULE_4_4']"
+MULE_4_0,,1,8500,['SHELL_4']
+MULE_4_1,,1,8500,['SHELL_4']
+MULE_4_2,,1,8500,['SHELL_4']
+MULE_4_3,,1,8500,['SHELL_4']
+MULE_4_4,,1,8500,['SHELL_4']
+SHELL_4,,0,0,[]
+BOSS_5,,5,45000,"['MULE_5_0', 'MULE_5_1', 'MULE_5_2', 'MULE_5_3', 'MULE_5_4']"
+MULE_5_0,,1,8500,['SHELL_5']
+MULE_5_1,,1,8500,['SHELL_5']
+MULE_5_2,,1,8500,['SHELL_5']
+MULE_5_3,,1,8500,['SHELL_5']
+MULE_5_4,,1,8500,['SHELL_5']
+SHELL_5,,0,0,[]
+BOSS_6,,5,45000,"['MULE_6_0', 'MULE_6_1', 'MULE_6_2', 'MULE_6_3', 'MULE_6_4']"
+MULE_6_0,,1,8500,['SHELL_6']
+MULE_6_1,,1,8500,['SHELL_6']
+MULE_6_2,,1,8500,['SHELL_6']
+MULE_6_3,,1,8500,['SHELL_6']
+MULE_6_4,,1,8500,['SHELL_6']
+SHELL_6,,0,0,[]
+BOSS_7,,5,45000,"['MULE_7_0', 'MULE_7_1', 'MULE_7_2', 'MULE_7_3', 'MULE_7_4']"
+MULE_7_0,,1,8500,['SHELL_7']
+MULE_7_1,,1,8500,['SHELL_7']
+MULE_7_2,,1,8500,['SHELL_7']
+MULE_7_3,,1,8500,['SHELL_7']
+MULE_7_4,,1,8500,['SHELL_7']
+SHELL_7,,0,0,[]
+BOSS_8,,5,45000,"['MULE_8_0', 'MULE_8_1', 'MULE_8_2', 'MULE_8_3', 'MULE_8_4']"
+MULE_8_0,,1,8500,['SHELL_8']
+MULE_8_1,,1,8500,['SHELL_8']
+MULE_8_2,,1,8500,['SHELL_8']
+MULE_8_3,,1,8500,['SHELL_8']
+MULE_8_4,,1,8500,['SHELL_8']
+SHELL_8,,0,0,[]
+BOSS_9,,5,45000,"['MULE_9_0', 'MULE_9_1', 'MULE_9_2', 'MULE_9_3', 'MULE_9_4']"
+MULE_9_0,,1,8500,['SHELL_9']
+MULE_9_1,,1,8500,['SHELL_9']
+MULE_9_2,,1,8500,['SHELL_9']
+MULE_9_3,,1,8500,['SHELL_9']
+MULE_9_4,,1,8500,['SHELL_9']
+SHELL_9,,0,0,[]
