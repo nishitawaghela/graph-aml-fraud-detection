@@ -112,4 +112,8 @@ To ensure transparency regarding the system's capabilities:
 1. **Synthetic Data:** The model was trained on generated data. Real-world financial data contains significantly more noise and class imbalance, which would likely require retraining and hyperparameter tuning.
 2. **Scalability:** The current in-memory deployment strategy works for demonstrations but is bounded by server RAM. A production implementation would require a distributed graph processing framework like **Apache Spark GraphX**.
 3. **Static Analysis:** The model analyzes a static snapshot of the transaction graph. It does not currently account for temporal dynamics (e.g., high-frequency trading bursts).
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5d35036 (readme update)
 
