@@ -1,8 +1,11 @@
 # Technical Case Study: Graph-Based Anti-Money Laundering (AML) Detection System
 
 **Author:** Nishita Waghela
+
 **Date:** 16th January 2026
+
 **Project Type:** End-to-End Data Science & Engineering
+
 **Deployment:** https://graph-aml-fraud-detection-6ffm6yydeuhi4tyq8xr5du.streamlit.app/
 
 ---
