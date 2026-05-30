@@ -92,18 +92,16 @@ class BankDataGenerator:
 if __name__ == "__main__":
     gen = BankDataGenerator()
     
-    # 1. Clear database first (Optional, but good for clean testing)
-    # gen.run_query("MATCH (n) DETACH DELETE n")
 
-    # 2. Create a larger population
-    gen.create_users(1000) 
+    # Create a larger population (15,000 users)
+    gen.create_users(15000) 
     
-    # 3. Inject Random Noise
-    gen.inject_random_noise(2000) 
+    #Inject Random Noise (70,000 normal transactions)
+    gen.inject_random_noise(70000) 
     
-    # 4. Inject multiple Fraud Rings
-    for i in range(10):
+    # Inject multiple Fraud Rings (50 rings = 500 fraud transactions)
+    for i in range(50):
         gen.inject_money_laundering(i)
     
     gen.close()
-    print("Data Injection Complete (Hard Mode).")
+    print("Data Injection Complete (Enterprise Scale).")
