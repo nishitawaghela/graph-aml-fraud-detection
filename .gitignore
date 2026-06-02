@@ -1,0 +1,9 @@
+# Python & Environment
+venv/
+__pycache__/
+.env
+
+# Generated Files
+*.html
+lib/
+.DS_Store

@@ -1,0 +1,9 @@
+streamlit
+pandas
+pyvis
+neo4j
+python-dotenv
+torch
+torch_geometric
+scikit-learn
+faker
