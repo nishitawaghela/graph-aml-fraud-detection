@@ -92,10 +92,21 @@ for epoch in range(201):
 
 # 6. EVALUATE
 model.eval()
-pred = model(data).argmax(dim=1)
-correct = (pred == data.y).sum()
-acc = int(correct) / int(data.y.shape[0])
-print(f"Final Accuracy: {acc:.2%}")
+with torch.no_grad(): # Best practice to stop tracking gradients during testing
+    pred = model(data).argmax(dim=1)
+
+# ==========================================
+# --- RESUME METRICS PROOF ---
+# ==========================================
+from sklearn.metrics import classification_report
+
+# PyTorch uses tensors, scikit-learn needs standard numpy arrays
+actual_labels = data.y.cpu().numpy()
+predicted_labels = pred.cpu().numpy()
+
+print("\n--- INDISPUTABLE ML METRICS ---")
+print(classification_report(actual_labels, predicted_labels, digits=3, target_names=['Normal', 'Fraud']))
+# ==========================================
 
 # Show some examples
 print("\n🔍 Example Predictions:")
