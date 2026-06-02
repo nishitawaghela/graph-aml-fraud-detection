@@ -113,6 +113,27 @@ with torch.no_grad():
     pred = model(data).argmax(dim=1)
 
 # ==========================================
+# --- CALCULATE AUC-ROC SCORE ---
+# ==========================================
+from sklearn.metrics import roc_auc_score
+
+# 1. We need the raw output from the model for the test set
+with torch.no_grad():
+    raw_output = model(data)
+
+# 2. Convert log_softmax outputs to standard probabilities (0.0 to 1.0)
+probabilities = torch.exp(raw_output)
+
+# 3. Extract the probabilities specifically for Class 1 (Fraud) on the test set
+test_fraud_probs = probabilities[data.test_mask, 1].cpu().numpy()
+
+# 4. Calculate AUC-ROC using the actual labels and the predicted probabilities
+auc_roc = roc_auc_score(test_actual, test_fraud_probs)
+
+print(f"AUC-ROC Score: {auc_roc:.4f}")
+# ==========================================
+
+# ==========================================
 # --- RESUME METRICS PROOF ---
 # CRITICAL FIX: Evaluate ONLY on the 20% TEST MASK nodes
 # ==========================================
