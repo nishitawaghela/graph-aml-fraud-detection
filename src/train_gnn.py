@@ -5,7 +5,7 @@ from torch_geometric.data import Data
 from torch_geometric.nn import GCNConv
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, roc_auc_score
 import ast
 
 # 1. LOAD & PREPROCESS DATA
@@ -44,14 +44,11 @@ features = scaler.fit_transform(features)
 x = torch.tensor(features, dtype=torch.float)
 y = torch.tensor(df['label'].values, dtype=torch.long)
 
-# ==========================================
-# CRITICAL FIX: 80/20 STRATIFIED SPLIT MASKS
-# ==========================================
+# 4. 80/20 STRATIFIED SPLIT MASKS
 num_nodes = df.shape[0]
 indices = range(num_nodes)
 labels = df['label'].values
 
-# Stratified split ensures both train and test sets get the exact same 99.3/0.7 ratio of fraud
 train_idx, test_idx = train_test_split(indices, test_size=0.20, stratify=labels, random_state=42)
 
 train_mask = torch.zeros(num_nodes, dtype=torch.bool)
@@ -60,14 +57,13 @@ test_mask = torch.zeros(num_nodes, dtype=torch.bool)
 train_mask[train_idx] = True
 test_mask[test_idx] = True
 
-# Create the Graph Data object with the masks included
 data = Data(x=x, edge_index=edge_index, y=y, train_mask=train_mask, test_mask=test_mask)
 
-# 4. DEFINE THE GNN MODEL
+# 5. DEFINE THE GNN MODEL
 class FraudGNN(torch.nn.Module):
     def __init__(self):
         super(FraudGNN, self).__init__()
-        self.conv1 = GCNConv(1, 16) # Expects 1 feature (Degree only)
+        self.conv1 = GCNConv(1, 16) 
         self.conv2 = GCNConv(16, 2)
 
     def forward(self, data):
@@ -78,17 +74,14 @@ class FraudGNN(torch.nn.Module):
         x = self.conv2(x, edge_index)
         return F.log_softmax(x, dim=1)
 
-# 5. TRAIN THE MODEL (With Masking & Class Weights)
+# 6. TRAIN THE MODEL (With Masking & Class Weights)
 model = FraudGNN()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 
-# --- CRITICAL FIX: DYNAMIC CLASS WEIGHTS ---
-# We calculate how imbalanced the training set is, and heavily weight the Fraud class
 train_labels = data.y[data.train_mask]
 num_normal = (train_labels == 0).sum().item()
 num_fraud = (train_labels == 1).sum().item()
 
-# If there are 100x more normal users, missing a fraudster penalizes the model 100x harder
 weight_normal = 1.0
 weight_fraud = num_normal / (num_fraud + 1e-5) 
 class_weights = torch.tensor([weight_normal, weight_fraud], dtype=torch.float)
@@ -99,7 +92,6 @@ for epoch in range(201):
     optimizer.zero_grad()
     out = model(data)
     
-    # Apply the class weights to the loss function
     loss = F.nll_loss(out[data.train_mask], data.y[data.train_mask], weight=class_weights)
     loss.backward()
     optimizer.step()
@@ -107,44 +99,29 @@ for epoch in range(201):
     if epoch % 20 == 0:
         print(f"Epoch {epoch} | Training Loss: {loss.item():.4f}")
 
-# 6. EVALUATE (Blind Test)
+# 7. EVALUATE (Blind Test)
 model.eval()
 with torch.no_grad():
-    pred = model(data).argmax(dim=1)
-
-# ==========================================
-# --- CALCULATE AUC-ROC SCORE ---
-# ==========================================
-from sklearn.metrics import roc_auc_score
-
-# 1. We need the raw output from the model for the test set
-with torch.no_grad():
     raw_output = model(data)
+    pred = raw_output.argmax(dim=1)
 
-# 2. Convert log_softmax outputs to standard probabilities (0.0 to 1.0)
-probabilities = torch.exp(raw_output)
-
-# 3. Extract the probabilities specifically for Class 1 (Fraud) on the test set
-test_fraud_probs = probabilities[data.test_mask, 1].cpu().numpy()
-
-# 4. Calculate AUC-ROC using the actual labels and the predicted probabilities
-auc_roc = roc_auc_score(test_actual, test_fraud_probs)
-
-print(f"AUC-ROC Score: {auc_roc:.4f}")
-# ==========================================
-
-# ==========================================
-# --- RESUME METRICS PROOF ---
-# CRITICAL FIX: Evaluate ONLY on the 20% TEST MASK nodes
-# ==========================================
+# Extract targets and predictions for the test set
 test_actual = data.y[data.test_mask].cpu().numpy()
 test_pred = pred[data.test_mask].cpu().numpy()
 
+# Calculate AUC-ROC Score
+probabilities = torch.exp(raw_output)
+test_fraud_probs = probabilities[data.test_mask, 1].cpu().numpy()
+auc_roc = roc_auc_score(test_actual, test_fraud_probs)
+
+print(f"\n--- AUC-ROC Score: {auc_roc:.4f} ---")
+
+# Resume Metrics Proof
 print("\n--- INDISPUTABLE ML METRICS (STRICT 80/20 SPLIT) ---")
 print(classification_report(test_actual, test_pred, digits=3, target_names=['Normal', 'Fraud']))
 
-# Show some examples exclusively from the test set
-print("\n🔍 Example Predictions (From unseen Test Set):")
+# Example Predictions
+print("\nExample Predictions (From unseen Test Set):")
 test_indices = [i for i, val in enumerate(data.test_mask) if val]
 for i in test_indices[:10]:
     status = "FRAUD" if pred[i] == 1 else "SAFE"
