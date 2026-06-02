@@ -78,9 +78,20 @@ class FraudGNN(torch.nn.Module):
         x = self.conv2(x, edge_index)
         return F.log_softmax(x, dim=1)
 
-# 5. TRAIN THE MODEL (With Masking)
+# 5. TRAIN THE MODEL (With Masking & Class Weights)
 model = FraudGNN()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
+
+# --- CRITICAL FIX: DYNAMIC CLASS WEIGHTS ---
+# We calculate how imbalanced the training set is, and heavily weight the Fraud class
+train_labels = data.y[data.train_mask]
+num_normal = (train_labels == 0).sum().item()
+num_fraud = (train_labels == 1).sum().item()
+
+# If there are 100x more normal users, missing a fraudster penalizes the model 100x harder
+weight_normal = 1.0
+weight_fraud = num_normal / (num_fraud + 1e-5) 
+class_weights = torch.tensor([weight_normal, weight_fraud], dtype=torch.float)
 
 print("Training GNN on 80% of the network...")
 model.train()
@@ -88,8 +99,8 @@ for epoch in range(201):
     optimizer.zero_grad()
     out = model(data)
     
-    # CRITICAL FIX: Calculate loss ONLY on the TRAIN MASK nodes
-    loss = F.nll_loss(out[data.train_mask], data.y[data.train_mask])
+    # Apply the class weights to the loss function
+    loss = F.nll_loss(out[data.train_mask], data.y[data.train_mask], weight=class_weights)
     loss.backward()
     optimizer.step()
     
