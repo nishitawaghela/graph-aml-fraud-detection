@@ -108,25 +108,27 @@ if __name__ == "__main__":
     gen.close()
     print("Data Injection Complete (Enterprise Scale).")
     if __name__ == "__main__":
-    gen = BankDataGenerator()
+        gen = BankDataGenerator()
     
-    gen.create_users(15000) 
-    gen.inject_random_noise(70000) 
-    for i in range(50):
-        gen.inject_money_laundering(i)
+        gen.create_users(15000) 
+        gen.inject_random_noise(70000) 
+        for i in range(50):
+            gen.inject_money_laundering(i)
     
-    gen.close()
-    print("Data Injection Complete (Enterprise Scale).")
+        gen.close()
+        print("Data Injection Complete (Enterprise Scale).")
 
-    
-    normal_tx = 70000
-    fraud_tx = 50 * 10 # 50 rings, 10 transactions each
-    total_tx = normal_tx + fraud_tx
+    # ==========================================
+    # PASTE THIS TO PROVE YOUR DATA IMBALANCE
+    # ==========================================
+        normal_tx = 70000
+        fraud_tx = 50 * 10 # 50 rings, 10 transactions each
+        total_tx = normal_tx + fraud_tx
 
-    normal_pct = (normal_tx / total_tx) * 100
-    fraud_pct = (fraud_tx / total_tx) * 100
+        normal_pct = (normal_tx / total_tx) * 100
+        fraud_pct = (fraud_tx / total_tx) * 100
 
-    print("\n--- RESUME METRICS PROOF ---")
-    print(f"Total Transactions Generated: {total_tx}")
-    print(f"Class Imbalance: {normal_pct:.2f}% Normal | {fraud_pct:.2f}% Fraud")
+        print("\n--- RESUME METRICS PROOF ---")
+        print(f"Total Transactions Generated: {total_tx}")
+        print(f"Class Imbalance: {normal_pct:.2f}% Normal | {fraud_pct:.2f}% Fraud")
     # ==========================================
